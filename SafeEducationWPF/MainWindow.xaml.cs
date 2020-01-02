@@ -108,7 +108,6 @@ namespace SafeEducationWPF
         }
 
         
-
         //Get访问Url
         public bool WebRequestByGet()
         {
