@@ -8,8 +8,8 @@
 5.滚轮移到Form Data区域，点击view source
 6.复制view source内的文本，即以”userProjectId=“开头的那一串，完整复制
 7.打开Debug文件夹里的SafeEducationWPF.exe
-8.粘贴刚才的字符串至软件上，点击完成按钮
-9.重新回到浏览器并后退，刷新后如果显示完成，即为成功
+8.粘贴刚才的字符串至软件上，点击完成按钮，等待成功提示
+9.重新回到浏览器，刷新后如果显示完成，即为成功
 注意，如果点击完成后，等待时间过长（超过1分钟），请关闭程序，重新尝试
 
 本程序已开源，Github地址https://github.com/2387744807/SafeEducation

@@ -187,8 +187,8 @@ namespace SafeEducationWPF
                         WebRequest request2 = WebRequest.Create(strStudyUrl);
                         WebResponse response2 = request2.GetResponse();
                         
-                        Console.WriteLine(strStudyUrl);
-                        Console.WriteLine(new StreamReader(response2.GetResponseStream(), Encoding.GetEncoding("utf-8")).ReadToEnd());
+                        response2.Dispose();
+                        //Console.WriteLine(new StreamReader(response2.GetResponseStream(), Encoding.GetEncoding("utf-8")).ReadToEnd());
                     }
                 }
 
